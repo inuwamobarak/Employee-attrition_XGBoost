@@ -53,3 +53,6 @@ WorkLifeBalance
 2 'Good'
 3 'Better'
 4 'Best'
+
+
+Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
