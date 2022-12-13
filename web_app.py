@@ -1,12 +1,14 @@
 #importing libraries
+#import catboost
 import xgboost as xgb
 import pandas as pd
 import streamlit as st
 import base64
-
+import numpy as np
+ 
 #importing model
 model = xgb.XGBRegressor()
-model.load_model('xgb_model.json')
+model.load_model('xgboost_model.json')
 
 #setting background
 def add_bg_from_local(image_file):
@@ -28,8 +30,9 @@ add_bg_from_local('images/bg2.jpg')
 #main body
 def main():
     st.title('Employee Attrition Prediction')
+    st.image('images/rsz_bg4.png')
     st.subheader('(Please fill in the Employee details accordingly)')
-    
+    import math
 
     Age = st.number_input('Age')
     BusinessTravel = st.number_input('BusinessTravel')
@@ -66,16 +69,15 @@ def main():
     YearsSinceLastPromotion  = st.number_input('YearsSinceLastPromotion')
     YearsWithCurrManager = st.number_input('YearsWithCurrManager')
 
-
-    
     if st.button('Click to Predict'):
         result = model.predict([[Age, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, MonthlyRate, NumCompaniesWorked, Over18, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager]])
-        
-        if result > 0 :
-            st.success(result)
+        #st.text(result) #uncomment to view the exact prediction before it is rounded off
+        result2 = (np.rint(result)).astype(int)
+        if result2 > 0 :
+            st.success(result2)
             st.success('Employee Does not seem to attrite')
         else:
-            st.warning(result)
+            st.warning(result2)
             st.warning('Employee tends to attrite')
             
 
