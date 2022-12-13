@@ -1,6 +1,6 @@
-#About the project
+ABOUT THE PROJECT
 
-##Employee-attrition
+Employee-attrition Prediction
 
 Employee attrition prediction using machine learning models
 
