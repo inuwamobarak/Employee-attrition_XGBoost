@@ -56,3 +56,4 @@ WorkLifeBalance
 
 
 Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
+Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
