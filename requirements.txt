@@ -1,4 +1,5 @@
 xgboost
+catboost
 sklearn
 pandas
 streamlit
