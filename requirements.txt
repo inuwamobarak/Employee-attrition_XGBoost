@@ -1,5 +1,6 @@
-xgboost
+xgboost version = 0.9
 catboost
 sklearn
 pandas
 streamlit
+Numpy
