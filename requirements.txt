@@ -1,4 +1,4 @@
-xgboost version == 0.9
+xgboost == 0.9
 catboost
 sklearn
 pandas
