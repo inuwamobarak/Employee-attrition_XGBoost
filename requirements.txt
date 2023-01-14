@@ -1,4 +1,6 @@
+scikit-learn
 xgboost == 0.90
 catboost
 pandas
 streamlit
+numpy
