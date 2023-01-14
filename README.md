@@ -1,8 +1,10 @@
-ABOUT THE PROJECT
+Streamlit Cloud deployment link: https://inuwamobarak-employee-attrition-xgboost-web-app-9uh06g.streamlit.app/
 
-Employee-attrition Prediction
+# ABOUT THE PROJECT
 
-Employee attrition prediction using machine learning models
+## Employee-attrition Prediction
+
+### Employee attrition prediction using machine learning models
 
 This project utilizes a public dataset available online in Kagle dataset repository to experiment machine learning processes. In practice, the XGBoost algorithm is selected for model building due to its ability in handling imbalanced data. We do not need to always balance data before using when we have the flexibility of utilizing powerful models. In a case where we are tied to a particular model that can not handle imbalanced data well, then we can use techniques like resampling.
 
