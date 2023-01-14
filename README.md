@@ -3,15 +3,18 @@ Streamlit Cloud deployment link: https://inuwamobarak-employee-attrition-xgboost
 # ABOUT THE PROJECT
 
 ## Employee-attrition Prediction
+Employee attrition prediction using machine learning models
 
-### Employee attrition prediction using machine learning models
+**Problem:** Replacing a departing employee often costs an organization $4,000 or more. The average cost to hire an employee, according to a different research by the Society for Human Resource Management, is $4,129, and it often takes 42 days to fill a post. The typical American company spends $4,000 to hire a new employee, and it might take up to 52 days to fill a post, according to Glassdoor.
 
-This project utilizes a public dataset available online in Kagle dataset repository to experiment machine learning processes. In practice, the XGBoost algorithm is selected for model building due to its ability in handling imbalanced data. We do not need to always balance data before using when we have the flexibility of utilizing powerful models. In a case where we are tied to a particular model that can not handle imbalanced data well, then we can use techniques like resampling.
+**Approach:** The project utilizes a public dataset available online in Kagle dataset repository to build a proto-type machine learning pipeline.
+* In practice, the XGBoost algorithm is selected for model building due to its ability in handling imbalanced data.
+* We do not need to always balance data before using when we have the flexibility of utilizing powerful models like XGBoost. Resampling would have been the alternative if we didnt have XGBoost algorithms.
 
-Employee Attrition can be a problem easily when it is not controlled. From experienced staffs leaving the company, to spending and recruting new staffs at different cost rate like like time, money and learning curves. Thanks to IBM scientist for making this experimental set available. Any comapny could recreat a personalized dataset and utilize this model. 
+Any comapny could re-create a personalized dataset and utilize this prototype.
 
-The Dataset
-Uncover the factors that lead to employee attrition and explore important questions such as ‘show me a breakdown of distance from home by job role and attrition’ or ‘compare average monthly income by education and attrition’. This is a fictional data set created by IBM data scientists.
+### The Dataset
+This is a fictional data set created by IBM data scientists.
 
 Education
 1 'Below College'
@@ -57,5 +60,5 @@ WorkLifeBalance
 4 'Best'
 
 
-Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
-Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+* Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
+* Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
