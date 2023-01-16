@@ -3,13 +3,14 @@ Streamlit Cloud deployment link: https://inuwamobarak-employee-attrition-xgboost
 # ABOUT THE PROJECT
 
 ## Employee-attrition Prediction
-Employee attrition prediction using machine learning models
+
+``this project aims at experimenting on the technologies used``
 
 ![This is an image](/images/rsz_bg4.png)
 
 **Problem:** Replacing a departing employee often costs an organization $4,000 or more. The average cost to hire an employee, according to a different research by the Society for Human Resource Management, is $4,129, and it often takes 42 days to fill a post. The typical American company spends $4,000 to hire a new employee, and it might take up to 52 days to fill a post, according to Glassdoor.
 
-**Approach:** The project utilizes a public dataset available online in Kagle dataset repository to build a proto-type machine learning pipeline.
+**Approach:** The project utilizes a public dataset [^1] available online in Kagle dataset repository to build a proto-type machine learning pipeline.
 * In practice, the XGBoost algorithm is selected for model building due to its ability in handling imbalanced data.
 * We do not need to always balance data before using when we have the flexibility of utilizing powerful models like XGBoost. Resampling would have been the alternative if we didnt have XGBoost algorithms.
 
@@ -61,6 +62,5 @@ WorkLifeBalance
 3 'Better'
 4 'Best'
 
-
-* Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
-* Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+[^1]: * Dataset license: https://opendatacommons.org/licenses/dbcl/1-0/
+[^1]: * Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset 
