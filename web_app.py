@@ -32,8 +32,8 @@ def main():
     st.title('Employee Attrition Prediction')
     st.image('images/rsz_bg4.png')
     
-    new_title = '<p style="font-family:sans-serif; color:Green; font-size: 16px;">Replacing a departing employee often costs an organization $4,000 or rfsrfwrfwer more. The average cost to hire an employee, according to a different research by the Society for Human Resource Management $4,129, and it often takes 42 days to fill a post. The typical American company spends $4,000 to hire a new employee, and it might take up to 52 days to fill a post, according to Glassdoor. </p>'
-    st.markdown(new_title, unsafe_allow_html=True)
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size: 16px;">Replacing a departing employee often costs an organization $4,000 or rfsrfwrfwer more. The average cost to hire an employee, according to a different research by the Society for Human Resource Management $4,129, and it often takes 42 days to fill a post. The typical American company spends $4,000 to hire a new employee, and it might take up to 52 days to fill a post, according to Glassdoor. </p>'
+    st.markdown(html_text, unsafe_allow_html=True)
     
     st.subheader('(Please fill in the Employee details accordingly)')
     import math
