@@ -32,9 +32,7 @@ def main():
     st.title('Employee Attrition Prediction UI')
     html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i>Replacing a departing employee often costs an organization $4,000 or more. The average cost to hire an employee, according to a different research by the Society for Human Resource Management $4,129, and it often takes 42 days to fill a post. The typical American company spends $4,000 to hire a new employee, and it might take up to 52 days to fill a post, according to Glassdoor.</i></p>'
     st.markdown(html_text, unsafe_allow_html=True)
-    html_text2 = '<hr>'
-    st.markdown(html_text2, unsafe_allow_html=True)
-    
+        
     #adding header image
     col1, col2, col3 = st.columns([1,6,1])
     with col1:
@@ -45,6 +43,9 @@ def main():
     
     with col3:
      st.write("")
+    
+    html_text2 = '<hr>'
+    st.markdown(html_text2, unsafe_allow_html=True)
     
     st.write('This is a prototype for predicting employee attrition using machine learning and also using cloud infrastructure')
     st.subheader('(Please fill in the Employee details accordingly)')
