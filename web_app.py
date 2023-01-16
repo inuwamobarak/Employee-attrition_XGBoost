@@ -25,7 +25,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('images/bg2.jpg')
+add_bg_from_local('images/bg3.jpg')
 
 #main body
 def main():
