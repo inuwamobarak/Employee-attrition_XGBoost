@@ -32,7 +32,7 @@ def main():
     st.title('Employee Attrition Prediction')
     st.image('images/rsz_bg4.png')
     st.write("Replacing a departing employee often costs an organization"\
-    "$4,000 or more. The average cost to hire an employee, according to a"\
+    "$4,000 or rfsrfwrfwer more. The average cost to hire an employee, according to a"\
     "different research by the Society for Human Resource Management, is"\
     "$4,129, and it often takes 42 days to fill a post."\
     "The typical American company spends $4,000 to hire a new employee,"\
