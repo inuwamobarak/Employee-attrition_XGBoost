@@ -38,13 +38,13 @@ def main():
     #adding header image
     col1, col2, col3 = st.beta_columns([1,6,1])
     with col1:
-    st.write("")
+     st.write("")
     
     with col2:
-    st.image('images/rsz_bg4.png')
+     st.image('images/rsz_bg4.png')
     
     with col3:
-    st.write("")
+     st.write("")
     
     st.write('This is a prototype for predicting employee attrition using machine learning and also using cloud infrastructure')
     st.subheader('(Please fill in the Employee details accordingly)')
