@@ -32,7 +32,7 @@ def main():
     st.title('Employee Attrition Prediction')
     st.image('images/rsz_bg4.png')
     
-    new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">Replacing a departing employee often costs an organization</p>'
+    new_title = '<p style="font-family:sans-serif; color:Green; font-size: 12px;">Replacing a departing employee often costs an organization</p>'
     st.markdown(new_title, unsafe_allow_html=True)
     
     st.write("Replacing a departing employee often costs an organization "\
